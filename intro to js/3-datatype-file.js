@@ -14,6 +14,10 @@
  // Date object:
  const date = new Date("2022-03-25");
 
+console.log(typeof person);
+console.log(typeof cars);
+console.log(typeof date);
+
 console.log(length);
 console.log(weight);
 console.log(color);
