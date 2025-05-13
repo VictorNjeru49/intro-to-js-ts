@@ -1,2 +1,6 @@
-import './1-exercise-file'
-import './2-exercise-file'
+// import './1-exercise-file'
+// import './2-exercise-file'
+// import './3-datatype-file'
+// import './4-function-file'
+// import './5-arrays-file'
+import './6-control-file'
