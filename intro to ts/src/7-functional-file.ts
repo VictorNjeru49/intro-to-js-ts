@@ -4,6 +4,34 @@ interface Param{
     num3?: number
 }
 
+
+class Dog {
+  bark() {
+    console.log("Woof!");
+  }
+}
+
+class Cat {
+  meow() {
+    console.log("Meow!");
+  }
+}
+
+function animalSound(animal: Dog | Cat) {
+  if (animal instanceof Dog) {
+    animal.bark();
+  } else {
+    animal.meow();
+  }
+}
+
+const dog = new Dog();
+const cat = new Cat();
+
+animalSound(dog);  // Output: Woof!
+animalSound(cat);  // Output: Meow!
+
+
 function addition(num1: number, num2: number, num3?: number):number{
     if(num3){
         return num1 + num2 +num3;    
