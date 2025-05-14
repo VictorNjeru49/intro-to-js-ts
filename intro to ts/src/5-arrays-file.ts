@@ -14,18 +14,18 @@ const mixed: (string | number) = mixedArray[2]; // Accessing the third element
 const booleanValue: boolean = booleanArray[3]; // Accessing the fourth element.
 
 
-//console.log(car); // Output: Ford
-//console.log(lastcar); // Output: 4
-//console.log(number); // Output: 2
-//console.log(mixed); // Output: Toyota
-//console.log(booleanValue); // Output: false
+console.log(car); // Output: Ford
+console.log(lastcar); // Output: 4
+console.log(number); // Output: 2
+console.log(mixed); // Output: Toyota
+console.log(booleanValue); // Output: false
 
 
 cars.push('Mazda'); // Adding a new element to the array
 cars.unshift('Subaru'); // Adding a new element to the beginning of the array
-// cars.shift(); // Removing the first element from the array
-// cars.pop(); // Removing the last element from the array
-// cars.splice(2, 1); // Removing the element at index 2 one element
+cars.shift(); // Removing the first element from the array
+cars.pop(); // Removing the last element from the array
+cars.splice(2, 1); // Removing the element at index 2 one element
 
 cars.map((car: string, index: number) => {
     console.log(`The car ${index} is in index ${car}`); // Output: Ford, Chevy, Toyota, Honda, Nissan

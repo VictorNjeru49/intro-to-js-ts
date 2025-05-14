@@ -150,20 +150,20 @@ johnDoeAccount1.calculateInterest()
 johnDoeAccount1.getAccountDetails();
 johnDoeAccount1.compoundInterest()
 
-// const johnDoeAccount = new BankAccount2("123456789", 
-// 1000, "Savings");
-// johnDoeAccount.getAccountDetails();
+const johnDoeAccount = new BankAccount2("123456789", 
+1000, "Savings");
+johnDoeAccount.getAccountDetails();
 
-// johnDoeAccount.deposit(500);
-// johnDoeAccount.withdraw(200, "ATM");
+johnDoeAccount.deposit(500);
+johnDoeAccount.withdraw(200, "ATM");
 
-// const jonhDoe =new BankAccount2("987654321", 1000, "Savings");
-// johnDoeAccount.transfer(300, new BankAccount2("987654321", 
-// 500, "Checking"),"Check");
-// jonhDoe.getAccountDetails();
+const jonhDoe =new BankAccount2("987654321", 1000, "Savings");
+johnDoeAccount.transfer(300, new BankAccount2("987654321", 
+500, "Checking"),"Check");
+jonhDoe.getAccountDetails();
 
-// johnDoeAccount.getAccountDetails();
-// johnDoeAccount.setAccountType("Business");
-// johnDoeAccount.getAccountDetails();
+johnDoeAccount.getAccountDetails();
+johnDoeAccount.setAccountType("Business");
+johnDoeAccount.getAccountDetails();
 
-// jonhDoe.deposit(600);
+jonhDoe.deposit(600);
